@@ -1,0 +1,5 @@
+[project]
+name = "2026-09-14-homework-pytest"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["pytest", "selenium"]

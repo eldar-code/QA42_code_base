@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Practice - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a> |
+        <a href="tables.html" class="nav-link">Data Tables</a> |
+        <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+
+    <h1>User Registration & Feedback</h1>
+
+    <form id="contact-form" onsubmit="handleFormSubmit(event)">
+        <div class="form-group">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="experience-level">Experience Level:</label>
+            <select id="experience-level">
+                <option value="junior">Junior QA</option>
+                <option value="mid">Mid QA</option>
+                <option value="senior">Senior QA / Automation</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="terms-check">
+            <label for="terms-check">I agree to the terms and conditions</label>
+        </div>
+
+        <button type="submit" id="submit-btn">Submit Registration</button>
+    </form>
+
+    <div id="status-message"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

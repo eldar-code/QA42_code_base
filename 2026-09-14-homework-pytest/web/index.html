@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Practice - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a> |
+        <a href="tables.html" class="nav-link">Data Tables</a> |
+        <a href="contact.html" class="nav-link">Contact Us</a>
+    </nav>
+
+    <h1>Welcome to QA Testing Portal</h1>
+    
+    <div class="content-box">
+        <p class="article-text">Paragraph 1: Web automation requires precise element locator strategies.</p>
+        <p class="article-text">Paragraph 2: Selenium WebDriver helps simulate user behavior in browsers.</p>
+        <p class="article-text">Paragraph 3: Always verify page structure before testing dynamic actions.</p>
+        <p class="article-text">Paragraph 4: Assertions ensure that expected behavior matches reality.</p>
+        <p class="article-text">Paragraph 5: CSS Selectors and XPath are powerful tools for locators.</p>
+        <p class="article-text">Paragraph 6: Unittest framework allows test setup and teardown isolation.</p>
+        <p class="article-text">Paragraph 7: Dynamic content requires explicit or implicit wait strategies.</p>
+        <p class="article-text">Paragraph 8: Always check for unique IDs and accessible name attributes.</p>
+        <p class="article-text">Paragraph 9: Event listeners capture user interactions like clicks and input.</p>
+        <p class="article-text">Paragraph 10: Consistency in test data ensures reliable execution results.</p>
+        <p class="article-text">Paragraph 11: Cross-browser testing validates uniform user experience.</p>
+        <p class="article-text">Paragraph 12: Regression testing suites prevent breaking existing features.</p>
+    </div>
+
+    <hr>
+    <div class="article-text">A div of class article-text</div>
+    <div class="interactive-section">
+        <button id="toggle-btn" onclick="toggleSecretMessage()">Show Message</button>
+        <div id="secret-message" class="hidden">Hidden Automation Message Revealed!</div>
+
+        <br><br>
+
+        <input type="text" id="user-input" placeholder="Type dynamic text here...">
+        <button id="update-btn" onclick="updateTitleText()">Update Heading</button>
+        <h2 id="dynamic-heading">Original Dynamic Title</h2>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
